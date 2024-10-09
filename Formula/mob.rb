@@ -1,9 +1,9 @@
 class Mob < Formula
     desc "Swift handover for remote mobs using git. mob is a CLI tool written in GO. It keeps your master branch clean and creates WIP commits on mob-session branch."
     homepage "https://github.com/remotemobprogramming/mob"
-    url "https://github.com/remotemobprogramming/mob/releases/download/v5.3.1/mob_v5.3.1_darwin_universal.tar.gz"
-    version "v5.3.1"
-    sha256 "1385624b0d3fa0b6efa0ae82132ca662a23debf949e6f83f0d76b81d3e83bc75"
+    url "https://github.com/remotemobprogramming/mob/releases/download/v5.3.2/mob_v5.3.2_darwin_universal.tar.gz"
+    version "v5.3.2"
+    sha256 "a73c184041211d1bfe23e1c31e9634badbf9aac0f503623e8b2e180862e28630"
   
     def install
       bin.install "mob"
